@@ -1,0 +1,22 @@
+this app works in android and ios
+
+for debloyment
+		1.	AdController.cs >> Global Controller
+					Is Test Ad
+
+things to change based on the platform:
+
+		1.	AdController.cs >> Global Controller
+					Is Target Google Play
+					Is Test Ad
+		2.	RestoreParchases.cs >> Canvas >> Panel Settings >> Button RestorePurchases
+					Is Android
+		3.	IAPManager.cs >> IAP Manager
+					Product Travel 
+								{
+									'android': 'product_travel',
+									'ios': 'product_travel_second'
+								}
+	    4. Package Name
+					android >> com.GalalVR.TheProhibited
+					IOS		>> com.GalalVR.TheProhibiteds
